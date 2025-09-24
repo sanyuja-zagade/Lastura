@@ -1,0 +1,243 @@
+body {
+    font-family: "Plus Jakarta Sans" !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: #fff;
+}
+
+.fa-compass {
+    color: #FF385C;
+    font-size: 2.5rem;
+}
+
+.home {
+    margin-left: 11rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials {
+    width: 100%;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info {
+    height: 10rem;
+    background-color: #f0efef;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*  Cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New Page | Edit Page*/
+.add-btn, .edit-btn {
+    background-color: #FF385C !important;
+    border: none !important;
+}
+
+/* Show Page */
+.show-img {
+    height: 40vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Review Card */
+.review-card {
+    padding: 1rem;
+    margin: 1rem !important;
+}
+
+/* Map */
+#map {
+    height: 50vh;
+    width: 50vw;
+    border-radius: 20px;
+}
+
+/* Edit Page */
+.orgImg {
+    height: 200px;
+    width: 250px;
+}
+
+/* Index page - Tax Switch */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.tax-info {
+    display: none;
+    font-size: 0.9rem;
+}
+.tax-toggle {
+    border: 1px solid rgb(138, 133, 133);
+    border-radius: 1rem;
+    height: 3.5rem;
+    width: 12rem;
+    padding: 1rem;
+}
+.tax-toggle:hover {
+    background-color: #f0efef;
+}
+.toggle-cursor {
+    cursor: pointer !important;
+}
+.toggle-switch {
+    background-color: #FF385C !important;
+    border: #FF385C !important;
+}
+.toggle-switch:focus {
+    box-shadow: 0 0 0 0.25rem #ff385d94 !important;
+}
+
+/* Filter */
+#filters {
+    display: flex;
+    border-radius: 5rem;
+    justify-content: space-between;
+    width: 60vw;
+    flex-shrink: 1;
+}
+
+.filter-option {
+    all: unset;   
+    font: inherit;  
+}
+
+#filters .filter{ 
+    border-radius: 5rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    min-width: 0 !important;
+    flex-shrink: 1 !important;
+}
+.filter:hover {
+    background-color: #f0efef;
+}
+
+#filters .filter input,
+#filters .filter button,
+#filters .filter b {
+    width: 100%;
+    min-width: 0 !important;
+    flex-shrink: 1 !important;   
+}
+
+.search {
+    background-color: #FF385C;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.search-btn {
+    background-color: #FF385C;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    padding: 0.5rem;
+}
+
+.search i {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    #filters .hide {
+        display: none !important;
+    }
+    #filters .media-div {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    #filters .media-input {
+        display: inline-block !important;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    #filters .media-div button {
+        display: inline-block !important;
+        height: 50px;
+        width: 50px;
+        color: white;
+        cursor: pointer;
+    }
+    #filters:hover {
+        background-color: #f0efef;
+    }
+}
