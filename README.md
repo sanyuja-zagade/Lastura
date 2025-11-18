@@ -33,10 +33,10 @@ It allows users to browse, crete, edit and delete property listings, leave revie
       - CSS
       - EJS
       - Bootstrap
-    - **Backend**
+   - **Backend**
       - Node.js
       - Express.js
-    - **Database**
+   - **Database**
       - MongoDB
       - Mongoose ODM (Object Data Modeling)
   <br>
