@@ -1,6 +1,9 @@
-Wanderlust is a full-stack responsive web application inspired by **Airbnb**, built using **Node.js, Express, MongoDB, Mongoose, EJS and Bootstrap.**<br>
+Wanderlust is a full-stack responsive deployed web application inspired by **Airbnb**, built using **Node.js, Express, MongoDB, Mongoose, EJS and Bootstrap.**<br>
 It allows users to browse, crete, edit and delete property listings, leave reviews and manage accounts through authentication.
 <br>
+
+**Live demo :**<br>
+https://wanderlust-nj95.onrender.com/listings
 
 **Features :**
 <br>
