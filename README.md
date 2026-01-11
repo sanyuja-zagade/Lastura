@@ -1,4 +1,4 @@
-<b>Lastura - <i>Where stays meet experiences<i><b> is a full-stack responsive deployed web application inspired by **Airbnb**, built using **Node.js, Express, MongoDB, Mongoose, EJS and Bootstrap.**<br>
+**Lastura - _Where stays meet experiences_** is a full-stack responsive deployed web application inspired by **Airbnb**, built using **Node.js, Express, MongoDB, Mongoose, EJS and Bootstrap.**<br>
 It allows users to browse, crete, edit and delete property listings, leave reviews and manage accounts through authentication.
 <br>
 
